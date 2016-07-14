@@ -1319,6 +1319,11 @@ FOOTER STYLES
 	clear: both;
 	background-color: $footer-bg;
 	color: $light-gray;
+
+    a {
+        color: #fff;
+
+    }
 }
 
 .subsidary-statement {

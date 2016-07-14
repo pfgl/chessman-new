@@ -2281,6 +2281,8 @@ FOOTER STYLES
   clear: both;
   background-color: #999;
   color: #f8f9fa; }
+  .footer a {
+    color: #fff; }
 
 .subsidary-statement {
   background-color: #898989; }
