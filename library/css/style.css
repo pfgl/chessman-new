@@ -463,8 +463,8 @@ span.amp {
   font-style: italic; }
 
 /******************************************************************
-Site Name:
-Author:
+Site Name: Chessman
+Author: Jack Machin
 
 Stylesheet: Variables
 
@@ -1521,13 +1521,13 @@ style a page via class
 LINK STYLES
 *********************/
 a, a:visited {
-  color: #62819a;
+  color: #d31145;
   text-decoration: none;
   /* on hover */
   /* on click */
   /* mobile tap color */ }
   a:hover, a:focus, a:visited:hover, a:visited:focus {
-    color: #506a7e;
+    color: #a90e37;
     text-decoration: underline; }
   a:link, a:visited:link {
     /*
@@ -1692,6 +1692,9 @@ POSTS & CONTENT STYLES
 *********************/
 .hentry footer p {
   margin: 0; }
+
+.hentry footer a {
+  color: #fff; }
 
 /* end .hentry */
 .single-title,
