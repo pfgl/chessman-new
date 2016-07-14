@@ -1,5 +1,5 @@
 /******************************************************************
-Site Name: Applewood
+Site Name: Chessman
 Author: Jack Machin
 
 Stylesheet: Base Mobile Stylesheet
@@ -1224,7 +1224,7 @@ SIDEBARS & ASIDES
     color: #fff;
     text-shadow: 0 -1px 1px #830d2d;
 
-    background: #62819a;
+    background: #d01448;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -1239,6 +1239,10 @@ SIDEBARS & ASIDES
         color: #fff;
         font-size: 1.1em;
     }
+
+    a:visited  {
+        color:#000;
+    }
 }
 
     .tab-title {
@@ -1249,13 +1253,12 @@ SIDEBARS & ASIDES
     }
 
 .tab-purple {
-    background-color: #0a304e;
+    background-color: #a21038;
 }
 
 .tab-grey {
     background-color: #797979;
 }
-
 
 .footer-sidebar {
     margin-top: 1.5em;

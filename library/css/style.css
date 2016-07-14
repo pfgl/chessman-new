@@ -1456,7 +1456,7 @@ you set a great foundation, you won't need to add too many styles in
 the other stylesheets. Remember, keep it light: Speed is Important.
 *********************/
 /******************************************************************
-Site Name: Applewood
+Site Name: Chessman
 Author: Jack Machin
 
 Stylesheet: Base Mobile Stylesheet
@@ -2210,7 +2210,7 @@ SIDEBARS & ASIDES
 .tab {
   color: #fff;
   text-shadow: 0 -1px 1px #830d2d;
-  background: #62819a;
+  background: #d01448;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -2223,6 +2223,8 @@ SIDEBARS & ASIDES
     font-weight: bold;
     color: #fff;
     font-size: 1.1em; }
+  .tab a:visited {
+    color: #000; }
 
 .tab-title {
   font-size: 1.7em;
@@ -2231,7 +2233,7 @@ SIDEBARS & ASIDES
   line-height: 2em; }
 
 .tab-purple {
-  background-color: #0a304e; }
+  background-color: #a21038; }
 
 .tab-grey {
   background-color: #797979; }
@@ -2407,13 +2409,14 @@ NAVIGATION STYLES
     margin-top: 0;
     margin-bottom: 0;
     border: 0;
-    background-color: #62819a;
-    background: -moz-linear-gradient(top, #62819a 0, #b1d1ea 50%, #62819a 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0, #62819a), color-stop(50%, #b1d1ea), color-stop(100%, #62819a));
-    background: -webkit-linear-gradient(top, #62819a 0, #b1d1ea 50%, #62819a 100%);
-    background: -o-linear-gradient(top, #62819a 0, #b1d1ea 50%, #62819a 100%);
-    background: -ms-linear-gradient(top, #62819a 0, #b1d1ea 50%, #62819a 100%);
-    background: linear-gradient(to bottom, #62819a 0, #b1d1ea 50%, #62819a 100%);
+    background-color: #d31145;
+    background: #d31145;
+    background: -moz-linear-gradient(top, #d31145 0, #e67393 50%, #d31145 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0, #d31145), color-stop(50%, #e67393), color-stop(100%, #d31145));
+    background: -webkit-linear-gradient(top, #d31145 0, #e67393 50%, #d31145 100%);
+    background: -o-linear-gradient(top, #d31145 0, #e67393 50%, #d31145 100%);
+    background: -ms-linear-gradient(top, #d31145 0, #e67393 50%, #d31145 100%);
+    background: linear-gradient(to bottom, #d31145 0, #e67393 50%, #d31145 100%);
     -webkit-box-shadow: 0 0 5px #3c3c40;
     -moz-box-shadow: 0 0 5px #3c3c40;
     box-shadow: 0 0 5px #3c3c40;
