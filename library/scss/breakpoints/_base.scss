@@ -1275,6 +1275,7 @@ SIDEBARS & ASIDES
     address {
         background: url(http://www.pfgl.co.uk/development/wp-content/themes/pfgl/library/images/iconaddress.png) no-repeat top left;
         padding-left: 35px;
+        font-style: normal;
     }
 
     address,
@@ -1285,6 +1286,23 @@ SIDEBARS & ASIDES
     a {
         color:#fff;
     }
+
+
+#contact-details {
+    font-weight: bold;
+    list-style: none;
+    font-size: 12px;
+
+    #telephone {
+        padding-left: 35px;
+        background: url(http://www.pfgl.co.uk/wp-content/themes/pfgl/library/images/icontelephone.png) no-repeat 0 50%;
+    }
+
+    #email {
+        padding-left: 35px;
+        background: url(http://www.pfgl.co.uk/wp-content/themes/pfgl/library/images/iconemail.png) no-repeat 0 50%;
+    }
+}
 }
 
 #sidebar-legal {
@@ -1326,10 +1344,6 @@ FOOTER STYLES
         color: #fff;
 
     }
-
-    address {
-        font-style: normal;
-    }
 }
 
 .subsidary-statement {
@@ -1359,22 +1373,5 @@ FOOTER STYLES
 		}
 
 	} /* end .footer-links */
-
-
-#contact-details {
-    font-weight: bold;
-    list-style: none;
-    font-size: 12px;
-
-    #telephone {
-        padding-left: 35px;
-        background: url(images/icontelephone.png) no-repeat 0 50%;
-    }
-
-    #email {
-        padding-left: 35px;
-        background: url(images/iconemail.png) no-repeat 0 50%;
-    }
-}
 
 	.copyright {}

@@ -2248,12 +2248,23 @@ SIDEBARS & ASIDES
   min-height: 300px; }
   #sidebar-contact address {
     background: url(http://www.pfgl.co.uk/development/wp-content/themes/pfgl/library/images/iconaddress.png) no-repeat top left;
-    padding-left: 35px; }
+    padding-left: 35px;
+    font-style: normal; }
   #sidebar-contact address,
   #sidebar-contact ul {
     font-size: .75em; }
   #sidebar-contact a {
     color: #fff; }
+  #sidebar-contact #contact-details {
+    font-weight: bold;
+    list-style: none;
+    font-size: 12px; }
+    #sidebar-contact #contact-details #telephone {
+      padding-left: 35px;
+      background: url(http://www.pfgl.co.uk/wp-content/themes/pfgl/library/images/icontelephone.png) no-repeat 0 50%; }
+    #sidebar-contact #contact-details #email {
+      padding-left: 35px;
+      background: url(http://www.pfgl.co.uk/wp-content/themes/pfgl/library/images/iconemail.png) no-repeat 0 50%; }
 
 #sidebar-legal {
   background-color: #898989;
@@ -2283,8 +2294,6 @@ FOOTER STYLES
   color: #f8f9fa; }
   .footer a {
     color: #fff; }
-  .footer address {
-    font-style: normal; }
 
 .subsidary-statement {
   background-color: #898989; }
@@ -2303,17 +2312,6 @@ FOOTER STYLES
 	view.
 	*/
 /* end .footer-links */
-#contact-details {
-  font-weight: bold;
-  list-style: none;
-  font-size: 12px; }
-  #contact-details #telephone {
-    padding-left: 35px;
-    background: url(images/icontelephone.png) no-repeat 0 50%; }
-  #contact-details #email {
-    padding-left: 35px;
-    background: url(images/iconemail.png) no-repeat 0 50%; }
-
 /*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's
