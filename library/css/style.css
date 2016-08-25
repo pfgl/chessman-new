@@ -2283,6 +2283,8 @@ FOOTER STYLES
   color: #f8f9fa; }
   .footer a {
     color: #fff; }
+  .footer address {
+    font-style: normal; }
 
 .subsidary-statement {
   background-color: #898989; }
@@ -2301,6 +2303,17 @@ FOOTER STYLES
 	view.
 	*/
 /* end .footer-links */
+#contact-details {
+  font-weight: bold;
+  list-style: none;
+  font-size: 12px; }
+  #contact-details #telephone {
+    padding-left: 35px;
+    background: url(images/icontelephone.png) no-repeat 0 50%; }
+  #contact-details #email {
+    padding-left: 35px;
+    background: url(images/iconemail.png) no-repeat 0 50%; }
+
 /*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's

@@ -1326,6 +1326,10 @@ FOOTER STYLES
         color: #fff;
 
     }
+
+    address {
+        font-style: normal;
+    }
 }
 
 .subsidary-statement {
@@ -1356,5 +1360,21 @@ FOOTER STYLES
 
 	} /* end .footer-links */
 
+
+#contact-details {
+    font-weight: bold;
+    list-style: none;
+    font-size: 12px;
+
+    #telephone {
+        padding-left: 35px;
+        background: url(images/icontelephone.png) no-repeat 0 50%;
+    }
+
+    #email {
+        padding-left: 35px;
+        background: url(images/iconemail.png) no-repeat 0 50%;
+    }
+}
 
 	.copyright {}
